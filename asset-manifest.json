@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ankush/static/css/main.237196e8.css",
+    "main.js": "/ankush/static/js/main.9b27af92.js",
+    "static/media/Ankush-Ekapure.png": "/ankush/static/media/Ankush-Ekapure.527169fc8b4bead17643.png",
+    "static/media/seo.png": "/ankush/static/media/seo.8e6eea02ade587cc8078.png",
+    "static/media/react.png": "/ankush/static/media/react.81ed438b18e24116794d.png",
+    "static/media/css.png": "/ankush/static/media/css.19c8605d6b2861f5fbe0.png",
+    "static/media/javascript.png": "/ankush/static/media/javascript.7f8751632b42a9932c15.png",
+    "static/media/node.png": "/ankush/static/media/node.bc4b43cd5f20ba305059.png",
+    "index.html": "/ankush/index.html",
+    "main.237196e8.css.map": "/ankush/static/css/main.237196e8.css.map",
+    "main.9b27af92.js.map": "/ankush/static/js/main.9b27af92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.237196e8.css",
+    "static/js/main.9b27af92.js"
+  ]
+}
