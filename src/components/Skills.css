@@ -1,0 +1,285 @@
+.skillsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.block1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 50%;
+  border-right: 1px solid #5c1c96;
+  height: 37.5rem;
+  flex-wrap: wrap;
+}
+
+.block2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 37.5rem;
+  color: white;
+  flex-wrap: wrap;
+}
+
+/* h2 heading */
+#myskills {
+  font-size: 3.438rem;
+  color: white;
+  height: 20%;
+  text-align: center;
+  width: 100%;
+  font-family: 'Playfair Display', serif;
+}
+
+.skills {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.skills img {
+  width: 6.25rem;
+  min-height: 6.25rem;
+  margin: 0 2.188rem;
+
+}
+
+/* h3 of skills */
+.skillName {
+  margin: 1.25rem;
+  margin-bottom: 2.5rem;
+  color: white;
+}
+
+.singleSkill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 1.25rem;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.singleSkill img:hover {
+  transform: scale(1.1);
+  transition: transform 1s ease;
+}
+
+.singleSkill:hover .waviy span {
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+
+}
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
+}
+
+.waviy span {
+  /* font-family: 'Alfa Slab One', cursive; */
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+@keyframes waviy {
+
+  0%,
+  40%,
+  100% {
+    transform: translateY(0)
+  }
+
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+
+
+
+@media screen and (max-width: 447px) {
+  .block1 {
+    width: 100%;
+    /* Full width for block1 on smaller screens */
+    border-right: none;
+    /* Remove border for block1 */
+    height: auto;
+    /* Allow block1 to expand as needed */
+    align-items: center;
+    /* Center content in block1 */
+    height: auto;
+  }
+
+  .block2 {
+    width: 100%;
+    /* Full width for block2 on smaller screens */
+    margin-top: 0.3rem;
+    /* Add some spacing between blocks */
+    height: auto;
+  }
+
+  /* Adjust spacing and size for skills on smaller screens */
+  .skills {
+    align-items: center;
+    margin-top: 0.7rem;
+  }
+
+  .skills img {
+    width: 2.25rem;
+    min-height: 2.25rem;
+    margin: 0 2.188rem;
+  }
+
+  .skillName {
+    margin: 0.425rem 0;
+    /* Adjust margin for spacing */
+    font-size: 1rem;
+    /* Reduce font size for skill names */
+  }
+
+  .skillInfo {
+    font-size: 0.8rem;
+    /* Reduce font size for skill info */
+  }
+
+  #myskills {
+    font-size: 2.5rem;
+  }
+
+  .singleSkill {
+    margin-bottom: 0.5rem;
+  }
+}
+
+
+/* Media query for smaller devices (e.g., mobile) */
+@media (min-width: 448px) and (max-width: 1014px) {
+
+  .block1 {
+    width: 100%;
+    /* Full width for block1 on smaller screens */
+    border-right: none;
+    /* Remove border for block1 */
+    height: auto;
+    /* Allow block1 to expand as needed */
+    align-items: center;
+    /* Center content in block1 */
+    height: auto;
+  }
+
+  .block2 {
+    width: 100%;
+    /* Full width for block2 on smaller screens */
+    margin-top: 0.5rem;
+    /* Add some spacing between blocks */
+    height: auto;
+  }
+
+  /* Adjust spacing and size for skills on smaller screens */
+  .skills {
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .skills img {
+    width: 3.25rem;
+    min-height: 3.25rem;
+    margin: 0 2.188rem;
+  }
+
+  .skillName {
+    margin: 0.625rem 0;
+    /* Adjust margin for spacing */
+    font-size: 1rem;
+    /* Reduce font size for skill names */
+  }
+
+  .skillInfo {
+    font-size: 1rem;
+    /* Reduce font size for skill info */
+  }
+
+  #myskills {
+    font-size: 3rem;
+  }
+
+  .singleSkill {
+    margin-bottom: 0.7rem;
+  }
+}
+
+@media (min-width: 1015px) and (max-width: 1430px) {
+
+  .block1 {
+    width: 100%;
+    /* Full width for block1 on smaller screens */
+    border-right: none;
+    /* Remove border for block1 */
+    height: auto;
+    /* Allow block1 to expand as needed */
+    align-items: center;
+    /* Center content in block1 */
+    height: auto;
+  }
+
+  .block2 {
+    width: 100%;
+    /* Full width for block2 on smaller screens */
+    margin-top: 0.5rem;
+    /* Add some spacing between blocks */
+    height: auto;
+  }
+
+  /* Adjust spacing and size for skills on smaller screens */
+  .skills {
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .skills img {
+    width: 5.25rem;
+    min-height: 5.25rem;
+    margin: 0 3.188rem;
+  }
+
+  .skillName {
+    margin: 1.25rem;
+    /* Adjust margin for spacing */
+    font-size: 1rem;
+    /* Reduce font size for skill names */
+  }
+
+  .skillInfo {
+    font-size: 1rem;
+    /* Reduce font size for skill info */
+  }
+
+  .singleSkill {
+    margin-bottom: 1rem;
+  }
+}

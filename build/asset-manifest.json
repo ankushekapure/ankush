@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/ankushekapure/static/css/main.237196e8.css",
+    "main.js": "/my-portfolio/ankushekapure/static/js/main.1c6e3697.js",
+    "static/media/Ankush-Ekapure.png": "/my-portfolio/ankushekapure/static/media/Ankush-Ekapure.527169fc8b4bead17643.png",
+    "static/media/seo.png": "/my-portfolio/ankushekapure/static/media/seo.8e6eea02ade587cc8078.png",
+    "static/media/react.png": "/my-portfolio/ankushekapure/static/media/react.81ed438b18e24116794d.png",
+    "static/media/css.png": "/my-portfolio/ankushekapure/static/media/css.19c8605d6b2861f5fbe0.png",
+    "static/media/javascript.png": "/my-portfolio/ankushekapure/static/media/javascript.7f8751632b42a9932c15.png",
+    "static/media/node.png": "/my-portfolio/ankushekapure/static/media/node.bc4b43cd5f20ba305059.png",
+    "index.html": "/my-portfolio/ankushekapure/index.html",
+    "main.237196e8.css.map": "/my-portfolio/ankushekapure/static/css/main.237196e8.css.map",
+    "main.1c6e3697.js.map": "/my-portfolio/ankushekapure/static/js/main.1c6e3697.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.237196e8.css",
+    "static/js/main.1c6e3697.js"
+  ]
+}

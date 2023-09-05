@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 96vw;
+    height: 3.125rem;
+    box-shadow: 0.3rem 0 3rem #000;
+    background-color: #18121c;
+    outline: none;
+    border: none;
+    border-bottom-left-radius: 0.938rem;
+    border-bottom-right-radius: 0.938rem;
+}
+
+#gitBlock,
+#linkedinBlock,
+#emailBlock,
+#phoneBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    color: white;
+}
+
+#gitBlock a,
+#linkedinBlock a,
+#emailBlock a,
+#phoneBlock a {
+    text-decoration: none;
+    color: white;
+}
+
+#gitBlock,
+#linkedinBlock,
+#emailBlock {
+    border-right: 0.125rem solid #3c175d;
+}
+
+i {
+    color: white;
+    font-size: 1.25rem;
+    padding: 0 0.625rem;
+}
+
+/* Responsive Styles */
+@media (min-width:581px) and (max-width: 905px) {
+    footer {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #gitBlock,
+    #linkedinBlock,
+    #emailBlock,
+    #phoneBlock {
+        font-size: 0.8rem;
+        padding: 1rem 0;
+        text-align: start;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    footer {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+
+    #gitBlock,
+    #linkedinBlock,
+    #emailBlock,
+    #phoneBlock {
+        width: auto;
+        font-size: 0.8rem;
+        border-right: none;
+        padding-bottom: 0.7rem;
+        text-align: center;
+    }
+}

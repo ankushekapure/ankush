@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: blueviolet;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 96vw;
+    min-height: 80vh;
+    background-color: #18121c;
+    outline: none;
+    border: none;
+    border-top-left-radius: 0.938rem;
+    border-top-right-radius: 0.938rem;
+}
