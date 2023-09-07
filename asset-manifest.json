@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ankush/static/css/main.9447b8da.css",
-    "main.js": "/ankush/static/js/main.9b27af92.js",
+    "main.js": "/ankush/static/js/main.d69d6d86.js",
     "static/media/Ankush-Ekapure.png": "/ankush/static/media/Ankush-Ekapure.527169fc8b4bead17643.png",
     "static/media/seo.png": "/ankush/static/media/seo.8e6eea02ade587cc8078.png",
     "static/media/react.png": "/ankush/static/media/react.81ed438b18e24116794d.png",
@@ -10,10 +10,10 @@
     "static/media/node.png": "/ankush/static/media/node.bc4b43cd5f20ba305059.png",
     "index.html": "/ankush/index.html",
     "main.9447b8da.css.map": "/ankush/static/css/main.9447b8da.css.map",
-    "main.9b27af92.js.map": "/ankush/static/js/main.9b27af92.js.map"
+    "main.d69d6d86.js.map": "/ankush/static/js/main.d69d6d86.js.map"
   },
   "entrypoints": [
     "static/css/main.9447b8da.css",
-    "static/js/main.9b27af92.js"
+    "static/js/main.d69d6d86.js"
   ]
 }
