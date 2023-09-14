@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import htmlImg from "../images/html.png";
-import cssImg from "../images/css.png";
-import jsImg from "../images/javascript.png";
-import reactImg from "../images/react.png";
-import nodeImg from "../images/node.png";
-import mongoImg from "../images/mongoDB.png";
-import seoImg from "../images/seo.png";
-import gitImg from "../images/git.png";
+import htmlImg from "../../assets/html.png";
+import cssImg from "../../assets/css.png";
+import jsImg from "../../assets/javascript.png";
+import reactImg from "../../assets/react.png";
+import nodeImg from "../../assets/node.png";
+import mongoImg from "../../assets/mongoDB.png";
+import seoImg from "../../assets/seo.png";
+import gitImg from "../../assets/git.png";
 import './Skills.css'
 
 function Skills() {

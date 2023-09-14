@@ -1,29 +1,28 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Bio from './components/Bio';
-import Navbar from './components/Navbar';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Footer from './components/Footer';
-import Experience from './components/Experience';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import Bio from './components/bio/Bio';
+import Navbar from './components/navbar/Navbar';
+import Skills from './components/skills/Skills';
+import Projects from './components/projects/Projects';
+import Footer from './components/footer/Footer';
+import Experience from './components/experience/Experience';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <div className='mainContainer'>
         <div className="container">
           <Navbar />
           <Routes>
-            <Route exact path="/" element={<Bio />} />
-            <Route exact path="/skills" element={<Skills />} />
-            <Route exact path="/experience" element={<Experience />} />
-            <Route exact path="/projects" element={<Projects />} />
+            <Route path="/" element={<Bio />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/projects" element={<Projects />} />
           </Routes>
-          
         </div>
-        <Footer/>
+        <Footer />
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 

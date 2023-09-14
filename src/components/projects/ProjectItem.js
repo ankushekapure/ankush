@@ -6,6 +6,16 @@ function ProjectItem(props) {
     <div className="proContent">
       <div className='proDetails'>
 
+      <div className='proItems'>
+          {props.code &&<div className='pro-links'>
+            <a href={props.code} target="_blank">Source Code</a>
+          </div>}
+          {props.live &&
+            <div className='pro-links'>
+              <a href={props.live} target="_blank">See Demo</a>
+            </div>
+          }
+        </div>
         <div className='proItems'>
           <div className='pro-label'>Project Title</div>
           <div className='pro-value'>{props.title}</div>
@@ -21,16 +31,6 @@ function ProjectItem(props) {
         <div className='proItems'>
           <div className='pro-label'>Technologies Used</div>
           <div className='pro-value'>{props.technologies}</div>
-        </div>
-        <div className='proItems'>
-          <div className='pro-links'>
-            <a href={props.code}>Source Code</a>
-          </div>
-          {props.live &&
-            <div className='pro-links'>
-              <a href={props.live}>See Demo</a>
-            </div>
-          }
         </div>
       </div>
     </div>

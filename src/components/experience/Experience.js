@@ -22,7 +22,7 @@ function Experience() {
         <div class="experience-details">
           <p><span class="details-label">Company:</span> Snovaspace Information Systems Pvt. Ltd.</p>
           <p><span class="details-label">Location:</span> Hyderabad, India</p>
-          <p><span class="details-label">Duration:</span> Jul 2020 - Present</p>
+          <p><span class="details-label">Duration:</span> Aug 2020 - Present</p>
         </div>
         <div class="skills">
           <i class="fab fa-html5"></i>

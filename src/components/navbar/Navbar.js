@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, memo } from 'react';
 import './Navbar.css';
+import resume from '../../assets/resume.pdf'
 import { Link, useLocation } from 'react-router-dom';
 
 function Navbar() {
@@ -34,11 +35,11 @@ function Navbar() {
           <Link to="/projects" className={`nav-link ${location.pathname === "/projects" ? "active-link" : ""}`} onClick={closeMenu}>Projects</Link>
         </li>
         <li className="nav-item">
-          <Link to="#" className={`nav-link ${location.pathname === "/resume" ? "active-link" : ""}`} onClick={closeMenu}>Resume</Link>
+          <a href={resume} download="resume.pdf" className={`nav-link ${location.pathname === "/resume" ? "active-link" : ""}`} onClick={closeMenu}>Resume</a>
         </li>
       </ul>
     </nav>
   );
 }
 
-export default Navbar;
+export default memo(Navbar);

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Bio.css'
-import bioimg from '../images/Ankush-Ekapure.png'
+import bioimg from '../../assets/Ankush-Ekapure.png'
 
 function Bio() {
   return (
