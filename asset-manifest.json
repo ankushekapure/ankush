@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ankush/static/css/main.1b3a577a.css",
-    "main.js": "/ankush/static/js/main.f90bc071.js",
-    "static/media/resume.pdf": "/ankush/static/media/resume.cd33f1b3818135514905.pdf",
+    "main.js": "/ankush/static/js/main.9e6bdff3.js",
+    "static/media/resume.pdf": "/ankush/static/media/resume.9fa186e93c9e1eda3c29.pdf",
     "static/media/Home.png": "/ankush/static/media/Home.212df18abaef6274e201.png",
     "static/media/seo.png": "/ankush/static/media/seo.30283976f1d40728e354.png",
     "static/media/react.png": "/ankush/static/media/react.3a4ff1d4021fe4e71814.png",
@@ -10,10 +10,10 @@
     "static/media/javascript.png": "/ankush/static/media/javascript.716319c07e06a348f972.png",
     "index.html": "/ankush/index.html",
     "main.1b3a577a.css.map": "/ankush/static/css/main.1b3a577a.css.map",
-    "main.f90bc071.js.map": "/ankush/static/js/main.f90bc071.js.map"
+    "main.9e6bdff3.js.map": "/ankush/static/js/main.9e6bdff3.js.map"
   },
   "entrypoints": [
     "static/css/main.1b3a577a.css",
-    "static/js/main.f90bc071.js"
+    "static/js/main.9e6bdff3.js"
   ]
 }
