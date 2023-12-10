@@ -8,11 +8,11 @@ function ProjectItem(props) {
 
       <div className='proItems'>
           {props.code &&<div className='pro-links'>
-            <a href={props.code} target="_blank">Source Code</a>
+            <a href={props.code} target="_blank" rel="noreferrer">Source Code</a>
           </div>}
           {props.live &&
             <div className='pro-links'>
-              <a href={props.live} target="_blank">See Demo</a>
+              <a href={props.live} target="_blank" rel="noreferrer">See Demo</a>
             </div>
           }
         </div>

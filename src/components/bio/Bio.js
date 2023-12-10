@@ -1,12 +1,12 @@
 import React from 'react'
 import './Bio.css'
-import bioimg from '../../assets/Ankush-Ekapure.png'
+import bioimg from '../../assets/Home.png'
 
 function Bio() {
   return (
     <div className='bioContainer'>
       <div className="block-1">
-        <img id='bioImg' src={bioimg} alt="Ankush Rkapure" />
+        <img id='bioImg' src={bioimg} alt="Home" />
         <div className="wave-container">
           <div className="wave"></div>
         </div>

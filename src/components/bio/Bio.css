@@ -29,8 +29,8 @@
 #bioImg {
     width: 25em;
     height: 25em;
-    border-radius: 50%;
-    box-shadow: 0.3rem 0 3rem #5c1c96;
+    /* border-radius: 50%; */
+    /* box-shadow: 0.3rem 0 3rem #5c1c96; */
     border: none;
     outline: none;
     animation: heartbeat 4s infinite;

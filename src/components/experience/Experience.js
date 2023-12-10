@@ -17,12 +17,12 @@ function Experience() {
         </h2></div>
       </div>
       <div class="experience-card">
-        <div class="ribbon">3+ years of experience</div>
+        <div class="ribbon">2+ years of experience</div>
         <div class="experience-title">Software Engineer</div>
         <div class="experience-details">
           <p><span class="details-label">Company:</span> Snovaspace Information Systems Pvt. Ltd.</p>
           <p><span class="details-label">Location:</span> Hyderabad, India</p>
-          <p><span class="details-label">Duration:</span> Aug 2020 - Present</p>
+          <p><span class="details-label">Duration:</span> Oct 2021 - Present</p>
         </div>
         <div class="skills">
           <i class="fab fa-html5"></i>
